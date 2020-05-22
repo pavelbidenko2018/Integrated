@@ -65,3 +65,29 @@ p {
     margin: 1em 0;
     color: white;
 }
+
+@media (max-width: 600px) {
+    
+    body {
+        font-size: 1rem;
+    }
+
+    .columns {
+        flex-direction: column;
+            
+    }
+
+    .col-1, 
+    .col-2, 
+    .col-3 {width: 100%;}
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.125rem;
+        }
+
+}
+
